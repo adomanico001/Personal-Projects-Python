@@ -10,11 +10,13 @@
 import java.time.LocalDate;
 
 public class SeatReservation {
+    // Instance variables
     private String flightDesignator;
     private LocalDate flightDate;
     private String firstName;
     private String lastName;
 
+    // Getters and setters
     public String getFlightDesignator() {
         return flightDesignator;
     }
