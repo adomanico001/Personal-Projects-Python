@@ -22,6 +22,9 @@ public class SeatReservation {
     }
 
     public void setFlightDesignator(String fd) {
+        if (fd.length() < 4 || fd.length() > 6) {
+            throw new IllegalArgumentException("FFlight Designator must have 4-6 characters.");
+        }
         this.flightDesignator = fd;
     }
 
