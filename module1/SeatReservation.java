@@ -22,10 +22,11 @@ public class SeatReservation {
     }
 
     public void setFlightDesignator(String flightDesignator) {
-        if (flightDesignator == null)
-           throw new IllegalArgumentException("flight designator cannot be null");
+        if (flightDesignator.length() < 4 || flightDesignator.length() > 6) {
+            throw new IllegalArgumentException("Flight Designator must have 4-6 characters.");
+        }
         this.flightDesignator = flightDesignator;
-     }
+    }
 
     public LocalDate getFlightDate() {
         return flightDate;
