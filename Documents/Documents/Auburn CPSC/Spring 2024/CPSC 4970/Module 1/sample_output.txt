@@ -1,0 +1,402 @@
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 1
+
+
+All items:
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 2
+
+
+Incomplete items:
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 3
+
+
+Incomplete items due today:
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 4
+
+
+Enter item description: Read a book
+Enter due date/time (MM/DD/YYYY hh:mm): 05/10/2021 12:00
+Added
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 4
+
+
+Enter item description: Invent something useful
+Enter due date/time (MM/DD/YYYY hh:mm): 01/07/2022 08:30
+Added
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 4
+
+
+Enter item description: Retire to the Bahamas
+Enter due date/time (MM/DD/YYYY hh:mm): 01/08/2022 23:00
+Added
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 1
+
+
+All items:
+	Read a book due 2021-05-10 12:00:00 (incomplete)
+	Invent something useful due 2022-01-07 08:30:00 (incomplete)
+	Retire to the Bahamas due 2022-01-08 23:00:00 (incomplete)
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 2
+
+
+Incomplete items:
+	Read a book due 2021-05-10 12:00:00
+	Invent something useful due 2022-01-07 08:30:00
+	Retire to the Bahamas due 2022-01-08 23:00:00
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 3
+
+
+Incomplete items due today:
+	Invent something useful due 2022-01-07 08:30:00
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 4
+
+
+Enter item description: Campain for presidency
+Enter due date/time (MM/DD/YYYY hh:mm): 06/01/2022 09:00
+Added
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 3
+
+
+Incomplete items due today:
+	Invent something useful due 2022-01-07 08:30:00
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 5
+
+
+Incomplete items:
+	0) Read a book due 2021-05-10 12:00:00
+	1) Invent something useful due 2022-01-07 08:30:00
+	2) Retire to the Bahamas due 2022-01-08 23:00:00
+	3) Campain for presidency due 2022-06-01 09:00:00
+Enter item to complete: 1
+Completed Invent something useful
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 1
+
+
+All items:
+	Read a book due 2021-05-10 12:00:00 (incomplete)
+	Invent something useful due 2022-01-07 08:30:00 (complete)
+	Retire to the Bahamas due 2022-01-08 23:00:00 (incomplete)
+	Campain for presidency due 2022-06-01 09:00:00 (incomplete)
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 2
+
+
+Incomplete items:
+	Read a book due 2021-05-10 12:00:00
+	Retire to the Bahamas due 2022-01-08 23:00:00
+	Campain for presidency due 2022-06-01 09:00:00
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 3
+
+
+Incomplete items due today:
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 5
+
+
+Incomplete items:
+	0) Read a book due 2021-05-10 12:00:00
+	2) Retire to the Bahamas due 2022-01-08 23:00:00
+	3) Campain for presidency due 2022-06-01 09:00:00
+Enter item to complete: 2
+Completed Retire to the Bahamas
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 1
+
+
+All items:
+	Read a book due 2021-05-10 12:00:00 (incomplete)
+	Invent something useful due 2022-01-07 08:30:00 (complete)
+	Retire to the Bahamas due 2022-01-08 23:00:00 (complete)
+	Campain for presidency due 2022-06-01 09:00:00 (incomplete)
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 2
+
+
+Incomplete items:
+	Read a book due 2021-05-10 12:00:00
+	Campain for presidency due 2022-06-01 09:00:00
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 3
+
+
+Incomplete items due today:
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 5
+
+
+Incomplete items:
+	0) Read a book due 2021-05-10 12:00:00
+	3) Campain for presidency due 2022-06-01 09:00:00
+Enter item to complete: 0
+Completed Read a book
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 1
+
+
+All items:
+	Read a book due 2021-05-10 12:00:00 (complete)
+	Invent something useful due 2022-01-07 08:30:00 (complete)
+	Retire to the Bahamas due 2022-01-08 23:00:00 (complete)
+	Campain for presidency due 2022-06-01 09:00:00 (incomplete)
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 5
+
+
+Incomplete items:
+	3) Campain for presidency due 2022-06-01 09:00:00
+Enter item to complete: 3
+Completed Campain for presidency
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 1
+
+
+All items:
+	Read a book due 2021-05-10 12:00:00 (complete)
+	Invent something useful due 2022-01-07 08:30:00 (complete)
+	Retire to the Bahamas due 2022-01-08 23:00:00 (complete)
+	Campain for presidency due 2022-06-01 09:00:00 (complete)
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 5
+
+
+No incomplete todo items available.
+
+
+
+Main menu:
+1) List ALL todo items
+2) List all incomplete todo items
+3) List incomplete todo items due today
+4) Add a todo item
+5) Complete a todo item
+6) Quit
+Enter your choice> 6
+
+
+Bye!
