@@ -1,9 +1,10 @@
-# Calculates how many book pages need to be read by chosen date
+# Calculates how many book pages need to be read by target date
 # @author Addie Domanico
 # @version 1/21/2024
 
 from datetime import datetime, timedelta
 
+# Determines daily pages based off target date and current page
 def calculate_daily_pages(total_pages, target_date, current_page):
     today = datetime.now().date()
     days_left = (target_date - today).days + 1
@@ -16,6 +17,7 @@ def calculate_daily_pages(total_pages, target_date, current_page):
     daily_pages = remaining_pages / days_left
     return daily_pages, remaining_pages
 
+# User input and final calculation
 def main():
     while True:
         try:
@@ -35,7 +37,8 @@ def main():
             run_again = input("Do you want to calculate another book? (Y/N): ")
             if run_again.lower() not in ['y', 'Y', 'yes']:
                 break
-        
+
+        # Checks if user entered valid input
         except ValueError:
             print("Invalid input. Please enter valid numbers and a valid date format.")
 
