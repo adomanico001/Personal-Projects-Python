@@ -19,17 +19,16 @@ for roll_num in range(50_000):
 
 # Analyze the results
 frequencies = []
-for value in range(1, die.num_sides+1):
+max_result = die_1.num_sides + die_2.num_sides
+for value in range(2, max_result+1):
     frequency = results.count(value)
     frequencies.append(frequency)
 
 # Visualize the results - histogram 
-x_values = list(range(1, die.num_sides+1))
+x_values = list(range(2, max_result+1))
 data = [Bar(x=x_values, y=frequencies)]
 
-x_axis_config = {'title': 'Result'}
+x_axis_config = {'title': 'Result', 'dtick': 1}
 y_axis_config = {'title': 'Frequency of Result'}
 my_layout = Layout(title='Results of rolling a D6 and a D10 500000 times', xaxis=x_axis_config, yaxis=y_axis_config)
 offline.plot({'data': data, 'layout': my_layout}, filename='d6_d10.html')
-    
-print(frequencies)
