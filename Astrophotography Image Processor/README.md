@@ -1,1 +1,1 @@
-<img width="800" alt="AstroImageProcessor_sample" src="https://github.com/user-attachments/assets/e90ac96e-78e7-48e1-b4ab-697a55e1f48e">
+<img width="938" alt="AstroImageProcessor_sample" src="https://github.com/user-attachments/assets/8563687e-88e1-4b59-be8b-0c0e7a16ba3a">
